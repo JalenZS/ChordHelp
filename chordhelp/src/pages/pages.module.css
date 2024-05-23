@@ -1,0 +1,118 @@
+/*applies to everything*/
+html{
+    background-color: #eee; 
+}
+
+.pageContainer{
+    font-size: 3.2vh;
+    width: 100%;
+    height: 100%;
+    font-family: Cutive;
+    text-align: center;
+}
+.titleContainer{
+    border-width: .6vmin;
+    border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+    border-radius: 2vmin;
+    background-color: #ddd; 
+}   
+.titleText{
+    font-size: 5vh;
+}
+.subtitleText{
+    font-size: 4vh;
+}
+.selectorContainer1{
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #a5bce9;
+    border-radius: 1.5vmin;
+    padding: .6vmin;
+    margin-bottom: 1%;
+}
+.selectorContainer2{
+    margin-bottom: 1%;
+}
+.selector{
+    padding: .3vmin;
+    background-color: #a5bce9;
+}
+.selector:hover{
+    background-color: #82a3e7;
+    border-radius: 1.5vmin;
+    cursor: pointer;
+    padding: .3vmin;
+}
+.selector:active{
+    background-color: #618bdd;
+    border-radius: 1.5vmin;
+    cursor: pointer;
+    padding: .3vmin;
+}
+.selectoractive{
+    background-color: #82a3e7;
+    border-radius: 1.5vmin;
+    cursor: pointer;
+    padding: .3vmin;
+}
+select{
+    font-size: 3.2vh;
+    font-family: Cutive;
+    border-width: .3vmin;
+    border-color: #000;
+    border-style: solid;
+    margin: .1vmin;
+}
+select:focus{   
+    font-size: 3.2vh;
+    font-family: Cutive;
+    border-width: .3vmin;
+    border-color: #444;
+    margin: .1vmin;
+    outline: none;
+}
+textarea{
+    border-width: .2vmin;
+    border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 1vmin;
+    background-color: #ddd; 
+    resize: none;
+    overflow: hidden;
+    font-size: 3vmin;
+    font-family: Cutive;
+}
+
+@media (max-width: 800px) or (orientation: portait) {
+    .titleContainer{
+        border-width: .6vmin;
+        margin-top: 1%;
+        margin-left: 2vmin;
+        margin-right: 2vmin;
+        border-radius: 2vmin;
+        background-color: #ddd; 
+    }
+    .selectorContainer1{
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: #a5bce9;
+        border-radius: 1.5vmin;
+        padding: .6vmin;
+    }
+}
+
+@font-face {
+    font-family: Cutive;
+    src: url(./../assets/CutiveMono-Regular.ttf);
+}
