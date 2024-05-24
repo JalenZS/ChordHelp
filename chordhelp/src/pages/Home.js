@@ -574,12 +574,15 @@ const Home = () => {
                     <option value="v3">v3</option>
                 </select>
             </div>
-            <textarea 
-                value={chord} 
-                readOnly
-                rows={7}
-                cols={53}
-            />
+            <div className={styles.chordContainer}>
+                <div className={styles.chordText}>{chord.substring(0,53)}</div>
+                <div className={styles.chordText}>{chord.substring(54,107)}</div>
+                <div className={styles.chordText}>{chord.substring(108,161)}</div>
+                <div className={styles.chordText}>{chord.substring(162,215)}</div>
+                <div className={styles.chordText}>{chord.substring(216,269)}</div>
+                <div className={styles.chordText}>{chord.substring(270,323)}</div>
+                <div className={styles.chordText}>{chord.substring(324,377)}&nbsp;</div>
+            </div>
         </div>
     )
 }
