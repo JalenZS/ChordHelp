@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chordhelp/static/css/main.ad5828f8.css",
-    "main.js": "/chordhelp/static/js/main.4f489eed.js",
-    "static/js/453.6845a791.chunk.js": "/chordhelp/static/js/453.6845a791.chunk.js",
-    "static/media/CutiveMono-Regular.ttf": "/chordhelp/static/media/CutiveMono-Regular.87ad8798656b491b849d.ttf",
-    "index.html": "/chordhelp/index.html",
-    "main.ad5828f8.css.map": "/chordhelp/static/css/main.ad5828f8.css.map",
-    "main.4f489eed.js.map": "/chordhelp/static/js/main.4f489eed.js.map",
-    "453.6845a791.chunk.js.map": "/chordhelp/static/js/453.6845a791.chunk.js.map"
+    "main.css": "/chordhelp/chordhelp/static/css/main.19cfce4b.css",
+    "main.js": "/chordhelp/chordhelp/static/js/main.51ea84da.js",
+    "static/js/453.6845a791.chunk.js": "/chordhelp/chordhelp/static/js/453.6845a791.chunk.js",
+    "static/media/CutiveMono-Regular.ttf": "/chordhelp/chordhelp/static/media/CutiveMono-Regular.87ad8798656b491b849d.ttf",
+    "index.html": "/chordhelp/chordhelp/index.html",
+    "main.19cfce4b.css.map": "/chordhelp/chordhelp/static/css/main.19cfce4b.css.map",
+    "main.51ea84da.js.map": "/chordhelp/chordhelp/static/js/main.51ea84da.js.map",
+    "453.6845a791.chunk.js.map": "/chordhelp/chordhelp/static/js/453.6845a791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5828f8.css",
-    "static/js/main.4f489eed.js"
+    "static/css/main.19cfce4b.css",
+    "static/js/main.51ea84da.js"
   ]
 }
