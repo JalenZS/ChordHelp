@@ -74,7 +74,7 @@ select:focus{
     font-size: 3.2vh;
     font-family: Cutive;
     border-width: .3vmin;
-    border-color: #444;
+    border-color: #999;
     margin: .1vmin;
     outline: none;
 }
@@ -89,6 +89,24 @@ textarea{
     overflow: hidden;
     font-size: 3vmin;
     font-family: Cutive;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+textarea:focus{
+    border-color: #999;
+    border-width: .2vmin;
+    border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 1vmin;
+    background-color: #ddd; 
+    resize: none;
+    overflow: hidden;
+    font-size: 3vmin;
+    font-family: Cutive;
+    outline:none;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 @media (max-width: 800px) or (orientation: portait) {
