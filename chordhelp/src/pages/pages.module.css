@@ -4,7 +4,7 @@ html{
 }
 
 .pageContainer{
-    font-size: 3.2vh;
+    font-size: 3.2vmin;
     width: 100%;
     height: 100%;
     font-family: Cutive;
@@ -21,10 +21,10 @@ html{
     background-color: #ddd; 
 }   
 .titleText{
-    font-size: 5vh;
+    font-size: 5vmin;
 }
 .subtitleText{
-    font-size: 4vh;
+    font-size: 4vmin;
 }
 .selectorContainer1{
     flex-direction: row;
@@ -79,18 +79,20 @@ select:focus{
     outline: none;
 }
 .chordContainer{
-    border-width: 1px;
+    border-width: .2vmin;
     border-style: solid;
     margin-top: 1%;
     margin-bottom: 1%;
-    border-radius: 1vw;
+    border-radius: 1vmin;
     background-color: #ddd; 
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
     white-space: pre;
+    height: fit-content;
+    width: fit-content;
 }
 .chordText{
-    font-size: 3vw;
+    font-size: 3vmin;
     font-family: Cutive;
 }
 
