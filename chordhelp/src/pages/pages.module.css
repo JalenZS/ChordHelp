@@ -87,6 +87,7 @@ select:focus{
     background-color: #ddd; 
     margin-left: 0%;
     margin-right: 0%;
+    white-space: pre;
 }
 .chordText{
     font-size: 3vw;
