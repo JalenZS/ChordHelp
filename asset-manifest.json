@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ChordHelp/static/css/main.af63c51d.css",
-    "main.js": "/ChordHelp/static/js/main.583e4cce.js",
+    "main.js": "/ChordHelp/static/js/main.861e9a01.js",
     "static/js/453.6845a791.chunk.js": "/ChordHelp/static/js/453.6845a791.chunk.js",
     "static/media/CutiveMono-Regular.ttf": "/ChordHelp/static/media/CutiveMono-Regular.87ad8798656b491b849d.ttf",
     "index.html": "/ChordHelp/index.html",
     "main.af63c51d.css.map": "/ChordHelp/static/css/main.af63c51d.css.map",
-    "main.583e4cce.js.map": "/ChordHelp/static/js/main.583e4cce.js.map",
+    "main.861e9a01.js.map": "/ChordHelp/static/js/main.861e9a01.js.map",
     "453.6845a791.chunk.js.map": "/ChordHelp/static/js/453.6845a791.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af63c51d.css",
-    "static/js/main.583e4cce.js"
+    "static/js/main.861e9a01.js"
   ]
 }
