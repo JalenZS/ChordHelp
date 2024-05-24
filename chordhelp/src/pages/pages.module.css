@@ -43,27 +43,31 @@ html{
 .selector{
     padding: .3vmin;
     background-color: #a5bce9;
+    font-size: 3.2vmin;
 }
 .selector:hover{
     background-color: #82a3e7;
     border-radius: 1.5vmin;
     cursor: pointer;
     padding: .3vmin;
+    font-size: 3.2vmin;
 }
 .selector:active{
     background-color: #618bdd;
     border-radius: 1.5vmin;
     cursor: pointer;
     padding: .3vmin;
+    font-size: 3.2vmin;
 }
 .selectoractive{
     background-color: #82a3e7;
     border-radius: 1.5vmin;
     cursor: pointer;
     padding: .3vmin;
+    font-size: 3.2vmin;
 }
 select{
-    font-size: 3.2vh;
+    font-size: 3.2vmin;
     font-family: Cutive;
     border-width: .3vmin;
     border-color: #000;
@@ -71,7 +75,7 @@ select{
     margin: .1vmin;
 }
 select:focus{   
-    font-size: 3.2vh;
+    font-size: 3.2vmin;
     font-family: Cutive;
     border-width: .3vmin;
     border-color: #999;
@@ -114,6 +118,14 @@ select:focus{
         background-color: #a5bce9;
         border-radius: 1.5vmin;
         padding: .6vmin;
+    }
+    .selectorContainer2{
+        margin-bottom: 1%;
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        margin-left: 40%;
+        margin-right: 40%;
     }
 }
 
